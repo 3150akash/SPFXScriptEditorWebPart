@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "f93527c1-21ae-41ab-9271-bc582e38d4a4",
+  "alias": "ScripteditorWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "scripteditor" },
+    "description": { "default": "to add in MUI" },
+    "officeFabricIconFontName": "JS",
+    "properties": {
+      "script": "",
+      "title": "The Modern Script Editor web part!",
+      "removePadding": false,
+      "spPageContextInfo": false
+  }
+  }]
+}
